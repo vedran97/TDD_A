@@ -1,10 +1,10 @@
 # TDD_A
 
-# TDD_A Badges
+## TDD_A Badges
 
 ![CICD Workflow status](https://github.com/vedran97/TDD_A/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg) [![codecov](https://codecov.io/gh/vedran97/TDD_A/branch/main/graph/badge.svg)](https://codecov.io/gh/vedran97/TDD_A) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Roles:
+## Roles
 
 1. Driver - Vedant Ranade
 2. Navigator - Manav Nagda (Author of Design Document in diagrams directory)
@@ -17,6 +17,7 @@ Simple starter C++ project with:
 - GoogleTest
 
 ## Standard install via command-line
+
 ```bash
 # Download the code:
   git clone https://github.com/vedran97/TDD_A.git
@@ -110,6 +111,7 @@ Follow the instruction below to copy the badge (in markdown format)
 and paste it at the top of your README.md file.
 
 For example:
+
 #### CICD Workflow status
 
 https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge
