@@ -1,8 +1,13 @@
 # TDD_A
 
 # TDD_A Badges
+
 ![CICD Workflow status](https://github.com/vedran97/TDD_A/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg) [![codecov](https://codecov.io/gh/vedran97/TDD_A/branch/main/graph/badge.svg)](https://codecov.io/gh/vedran97/TDD_A) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+## Roles:
+
+1. Driver - Vedant Ranade
+2. Navigator - Manav Nagda
 
 ## Overview
 

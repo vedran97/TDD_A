@@ -3,8 +3,8 @@ struct Gains{
 };
 class PIDController{
 public:
-PIDController(Gains gains);
-float compute(float outputVel,float inputVel);
+PIDController(Gains inputGains);
+float compute(float inputVel,float targetVel);
 void resetController();
 private:
 };
