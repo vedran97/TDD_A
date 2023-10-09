@@ -1,7 +1,7 @@
-# cpp-boilerplate-v2
+# TDD_A
 
-# C++ Boilerplate v2 Badges
-![CICD Workflow status](https://github.com/TommyChangUMD/cpp-boilerplate-v2/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg) [![codecov](https://codecov.io/gh/TommyChangUMD/cpp-boilerplate-v2/branch/main/graph/badge.svg)](https://codecov.io/gh/TommyChangUMD/cpp-boilerplate-v2) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+# TDD_A Badges
+![CICD Workflow status](https://github.com/vedran97/TDD_A/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg) [![codecov](https://codecov.io/gh/vedran97/TDD_A/branch/main/graph/badge.svg)](https://codecov.io/gh/vedran97/TDD_A) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 
 ## Overview
@@ -14,8 +14,8 @@ Simple starter C++ project with:
 ## Standard install via command-line
 ```bash
 # Download the code:
-  git clone https://github.com/TommyChangUMD/cpp-boilerplate-v2
-  cd cpp-boilerplate-v2
+  git clone https://github.com/vedran97/TDD_A.git
+  cd TDD_A
 # Configure the project and generate a native build system:
   # Must re-run this command whenever any CMakeLists.txt file has been changed.
   cmake -S ./ -B build/
