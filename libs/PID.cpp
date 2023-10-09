@@ -1,6 +1,10 @@
 #include "PID.hpp"
 
 namespace controller{
+/**
+* @brief Store controller gains
+* @param[in] inputGains Gains struct
+*/
 PIDController::PIDController(controller::Gains inputGains){
 ;
 }
