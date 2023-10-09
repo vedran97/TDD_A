@@ -45,6 +45,13 @@ Simple starter C++ project with:
   cmake --build build/ --target clean
 # Clean and start over:
   rm -rf build/
+  rm -rf .cache/
+  rm -rf docs/
+  rm -rf Doxyfile
+  rm -rf compile_commands.json
+# run clang-format
+   clang-format -i --style=Google $(find . -name *.cpp -o -name *.hpp | grep -vE -e "^./build/")
+
 ```
 
 ref: https://cmake.org/cmake/help/latest/manual/cmake.1.html
