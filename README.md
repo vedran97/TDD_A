@@ -7,7 +7,7 @@
 ## Roles:
 
 1. Driver - Vedant Ranade
-2. Navigator - Manav Nagda
+2. Navigator - Manav Nagda (Author of Design Document in diagrams directory)
 
 ## Overview
 
@@ -50,7 +50,11 @@ Simple starter C++ project with:
   rm -rf Doxyfile
   rm -rf compile_commands.json
 # run clang-format
-   clang-format -i --style=Google $(find . -name *.cpp -o -name *.hpp | grep -vE -e "^./build/")
+  clang-format -i --style=Google $(find . -name *.cpp -o -name *.hpp | grep -vE -e "^./build/")
+# run cppcheck 
+  mkdir output -p && cppcheck --enable=all --std=c++11 -I include/ --suppress=missingInclude $( find . -name *.cpp | grep -vE -e "^./build/" ) &> output/cppcheck
+#run cpplint
+  mkdir output -p && cpplint --filter="-legal/copyright" $( find . -name *.cpp | grep -vE -e "^./build/" ) &> output/cpplint
 
 ```
 

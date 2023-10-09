@@ -18,7 +18,7 @@ class PIDController {
    * variables
    *  @param[in] inputGains Gains struct
    */
-  PIDController(Gains inputGains);
+  explicit PIDController(Gains inputGains);
   /**
    * @brief Compute function which takes input velocity and target velocity as
    * input and returns a controller output
