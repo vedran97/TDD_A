@@ -9,6 +9,11 @@
 1. Driver - Vedant Ranade
 2. Navigator - Manav Nagda (Author of Design Document in diagrams directory)
 
+Part 2
+
+Driver:- Ishaan Parikh
+Navigator :- Vinay Lanka
+
 ## Overview
 
 Simple starter C++ project with:
