@@ -1,0 +1,33 @@
+shaan@ubuntu:~/TDD_A$ cd build/; ctest; cd -
+Test project /home/ishaan/TDD_A/build
+    Start 1: pid_test_1.proportional_test
+1/2 Test #1: pid_test_1.proportional_test .....***Failed    0.03 sec
+    Start 2: pid_test_2.integral_test
+2/2 Test #2: pid_test_2.integral_test .........***Failed    0.02 sec
+
+0% tests passed, 2 tests failed out of 2
+
+Total Test time (real) =   0.08 sec
+
+The following tests FAILED:
+	  1 - pid_test_1.proportional_test (Failed)
+	  2 - pid_test_2.integral_test (Failed)
+Errors while running CTest
+/home/ishaan/TDD_A
+
+
+
+
+Tests_passed
+
+ishaan@ubuntu:~/TDD_A$ cd build/; ctest; cd -
+Test project /home/ishaan/TDD_A/build
+    Start 1: pid_test_1.proportional_test
+1/2 Test #1: pid_test_1.proportional_test .....   Passed    0.03 sec
+    Start 2: pid_test_2.integral_test
+2/2 Test #2: pid_test_2.integral_test .........   Passed    0.02 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.09 sec
+/home/ishaan/TDD_A
