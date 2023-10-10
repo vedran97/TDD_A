@@ -1,2 +1,0 @@
-ishaan@ubuntu:~/TDD_A$  clang-format -i --style=Google $(find . -name *.cpp -o -name *.hpp | grep -vE -e "^./build/")
-ishaan@ubuntu:~/TDD_A$ mkdir output -p && cppcheck --enable=all --std=c++11 -I include/ --suppress=missingInclude $( find . -name *.cpp | grep -vE -e "^./build/" ) &> output/cppcheck
