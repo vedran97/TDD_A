@@ -1,0 +1,3 @@
+ishaan@ubuntu:~/TDD_A$ #run cpplint
+ishaan@ubuntu:~/TDD_A$   mkdir output -p && cpplint --filter="-legal/copyright" $( find . -name *.cpp | grep -vE -e "^./build/" ) &> output/cpplint
+ishaan@ubuntu:~/TDD_A$ 
